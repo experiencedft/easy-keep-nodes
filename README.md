@@ -8,7 +8,8 @@
  - Create an Infura account and project
  - Create an Ethereum wallet with a keystore that you will rename as ``keep_wallet.json`` 
  - Import your Ethereum walllet to Metamask
- - Authorize the Keep contracts on the appropriate Keep dashboard (testnet or mainnet)
+ - Authorize the Keep contracts on the appropriate Keep dashboard (testnet or mainnet), get some testnet KEEP and ETH, and delegate ETH using the dashboard
+ - Install Docker 
 
  If you are unfamiliar with these steps, you can seek help on the official [Keep Discord](https://discord.com/invite/wYezN7v). 
 
