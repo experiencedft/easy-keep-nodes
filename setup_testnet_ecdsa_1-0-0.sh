@@ -98,7 +98,10 @@ cat <<CONFIG >>$HOME/keep-ecdsa/config/config.toml
   DataDir = "/mnt/keep-ecdsa/persistence"
   
 [LibP2P]
-  Peers = ["/dns4/testnet.keep-client.hashd.dev/tcp/3920/ipfs/16Uiu2HAmJsBiNVFNxsJ27NSQEByv39B1M7AKx5FrAc1htqYhHGhU","/ip4/3.23.88.229/tcp/3919/ipfs/16Uiu2HAmEZpkf1Td8rSBMmgPoa66si2kJLb83Rd2eztJ6f5oLvhp"]
+  Peers = ["/dns4/testnet.keep-client.hashd.dev/tcp/3920/ipfs/16Uiu2HAmJsBiNVFNxsJ27NSQEByv39B1M7AKx5FrAc1htqYhHGhU",
+  "/ip4/3.23.88.229/tcp/3919/ipfs/16Uiu2HAmEZpkf1Td8rSBMmgPoa66si2kJLb83Rd2eztJ6f5oLvhp",
+  "/dns4/ecdsa-0.test.keep.network/tcp/3919/ipfs/16Uiu2HAmCcfVpHwfBKNFbQuhvGuFXHVLQ65gB4sJm7HyrcZuLttH",    
+  "/dns4/ecdsa-1.test.keep.network/tcp/3919/ipfs/16Uiu2HAm3eJtyFKAttzJ85NLMromHuRg4yyum3CREMf6CHBBV6KY"]
 Port = 3919
 
  # Override the node’s default addresses announced in the network
