@@ -134,4 +134,4 @@ echo ""
 echo ""
 
 echo "*** Congratulations, you're all set up to run a v1.2.0 Random Beacon testnet node ***"
-echo "*** Please download the run_testnet_beacon_1-2-0.sh script to run the node ***"
+echo "*** Please download the run_testnet_beacon_1-2-4-rc.sh script to run the node ***"

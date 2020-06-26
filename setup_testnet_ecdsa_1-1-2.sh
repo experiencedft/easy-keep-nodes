@@ -131,4 +131,4 @@ echo ""
 echo ""
 
 echo "*** Congratulations, you're all set up to run a v1.0.0 ECDSA testnet node ***"
-echo "*** Please download the run_testnet_ecdsa_1-0-0.sh script to run the node ***"
+echo "*** Please download the run_testnet_ecdsa_1-1-2-rc.sh script to run the node ***"

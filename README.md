@@ -15,15 +15,15 @@
 
  ## How to use?
 
-First you need to be clear on what kind of node (ECDSA or Random Beacon) and which node version you wish to run on which Ethereum network (testnet or mainnet). For example, if you wish to run a testnet ECDSA 1.0.0 node, the relevant scripts are those suffixed with ``testnet_ECDSA_1-0-0``. In the following, I will assume this is the node you wish to run as they are the only scripts available as of now. More will be added later.
+First you need to be clear on what kind of node (ECDSA or Random Beacon) and which node version you wish to run on which Ethereum network (testnet or mainnet). For example, if you wish to run a testnet ECDSA 1.0.0 node, the relevant scripts are those suffixed with ``testnet_ECDSA_1-1-2-rc``. In the following, I will assume this is the node you wish to run as they are the only scripts available as of now. More will be added later.
 
 **IMPORTANT:** download the scripts as they are and do not copy paste their contents into local files to avoid any formatting issue.
 
-1. Download the ``setup_testnet_ECDSA_1-0-0.sh`` and ``run_testnet_ECDSA_1-0-0.sh`` scripts.
+1. Download the ``setup_testnet_ECDSA_1-1-2-rc.sh`` and ``run_testnet_ECDSA_1-1-2-rc.sh`` scripts.
 2. Move both the scripts to your HOME directory.
-3. To make sure these scripts are executable, run the commands ``chmod +x setup_testnet_ECDSA_1-0-0.sh`` and ``chmod +x run_testnet_ECDSA_1-0-0.sh`` from your HOME directory.
-4. Run the command ``source ./setup_testnet_ECDSA_1-0-0.sh`` and follow the instructions in the command line interface.
-5. Run the command ``bash run_testnet_ECDSA_1-0-0.sh``.
+3. To make sure these scripts are executable, run the commands ``chmod +x setup_testnet_ECDSA_1-1-2-rc.sh`` and ``chmod +x run_testnet_ECDSA_1-1-2-rc.sh`` from your HOME directory.
+4. Run the command ``source ./setup_testnet_ECDSA_1-1-2-rc.sh`` and follow the instructions in the command line interface.
+5. Run the command ``bash run_testnet_ECDSA_1-1-2-rc.sh``.
 
 This is it. 
 
