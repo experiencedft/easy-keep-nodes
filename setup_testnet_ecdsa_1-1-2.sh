@@ -82,7 +82,7 @@ cat <<CONFIG >>$HOME/keep-ecdsa/config/config.toml
 # if it does, the new contract address will be listed here:
 # https://github.com/keep-network/keep-ecdsa/blob/master/docs/run-keep-ecdsa.adoc
 [ethereum.ContractAddresses]
-  BondedECDSAKeepFactory = "0x17caddf97a1d1123efb7b233cb16c76c31a96e02"
+  BondedECDSAKeepFactory = "0xe7BF8421fBE80c3Bf67082370D86C8D81D1D77F4"
 
 
 # This addresses might change and need to be replaced from time to time
@@ -91,17 +91,15 @@ cat <<CONFIG >>$HOME/keep-ecdsa/config/config.toml
 # Addresses of applications approved by the operator.
 [SanctionedApplications]
   Addresses = [
-    "0x2b70907b5c44897030ea1369591ddcd23c5d85d6",
+    "0x25B60668E7a0967a86223828D20f93714D91Ee4B",
 ]
 
 [Storage]
   DataDir = "/mnt/keep-ecdsa/persistence"
   
 [LibP2P]
-  Peers = ["/dns4/testnet.keep-client.hashd.dev/tcp/3920/ipfs/16Uiu2HAmJsBiNVFNxsJ27NSQEByv39B1M7AKx5FrAc1htqYhHGhU",
-  "/ip4/3.23.88.229/tcp/3919/ipfs/16Uiu2HAmEZpkf1Td8rSBMmgPoa66si2kJLb83Rd2eztJ6f5oLvhp",
-  "/dns4/ecdsa-0.test.keep.network/tcp/3919/ipfs/16Uiu2HAmCcfVpHwfBKNFbQuhvGuFXHVLQ65gB4sJm7HyrcZuLttH",    
-  "/dns4/ecdsa-1.test.keep.network/tcp/3919/ipfs/16Uiu2HAm3eJtyFKAttzJ85NLMromHuRg4yyum3CREMf6CHBBV6KY"]
+  Peers = ["/dns4/ecdsa-2.test.keep.network/tcp/3919/ipfs/16Uiu2HAmNNuCp45z5bgB8KiTHv1vHTNAVbBgxxtTFGAndageo9Dp",    
+"/dns4/ecdsa-3.test.keep.network/tcp/3919/ipfs/16Uiu2HAm8KJX32kr3eYUhDuzwTucSfAfspnjnXNf9veVhB12t6Vf",]
 Port = 3919
 
  # Override the node’s default addresses announced in the network

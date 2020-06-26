@@ -6,5 +6,5 @@ sudo docker run -d \
   --env LOG_LEVEL=debug \
   --name keep-client \
   -p 3920:3919 \
-  keepnetwork/keep-client:v1.2.0 \
+  keepnetwork/keep-client:v1.2.4-rc \
   --config /mnt/keep-client/config/config.toml start

@@ -82,9 +82,9 @@ cat <<CONFIG >>$HOME/keep-client/config/config.toml
 # if it does, the new contract address will be listed here:
 # https://github.com/keep-network/keep-client/blob/master/docs/run-keep-client.adoc
 [ethereum.ContractAddresses]
-  KeepRandomBeaconOperator = "0x440626169759ad6598cd53558F0982b84A28Ad7a"
-  TokenStaking = "0xEb2bA3f065081B6459A6784ba8b34A1DfeCc183A"
-  KeepRandomBeaconService = "0xF9AEdd99357514d9D1AE389A65a4bd270cBCb56c"
+  KeepRandomBeaconOperator = "0x9233Fd6C58e37dab223EF1dFD5e33eD69FD1f93b"
+  TokenStaking = "0x88B3D0Bfb8F207292Dc4Cee7C923d0E7C3078a18"
+  KeepRandomBeaconService = "0xa5018dbeB6920A04e0CFd3D8F0F45BC851838b0D"
 
 
 # This addresses might change and need to be replaced from time to time
@@ -100,10 +100,9 @@ cat <<CONFIG >>$HOME/keep-client/config/config.toml
   DataDir = "/mnt/keep-client/persistence"
   
 [LibP2P]
-  Peers = ["/dns4/bootstrap-0.test.keep.network/tcp/3919/ipfs/16Uiu2HAmCcfVpHwfBKNFbQuhvGuFXHVLQ65gB4sJm7HyrcZuLttH",
-"/dns4/bootstrap-1.test.keep.network/tcp/3919/ipfs/16Uiu2HAm3eJtyFKAttzJ85NLMromHuRg4yyum3CREMf6CHBBV6KY",
-"/dns4/testnet.keep-client.hashd.dev/tcp/3919/ipfs/16Uiu2HAmJsBiNVFNxsJ27NSQEByv39B1M7AKx5FrAc1htqYhHGhU",
-"/dns4/testnet2.keep-client.hashd.dev/tcp/3919/ipfs/16Uiu2HAmAV3sNGXTpdZCguUEd5QqMmg13WZ5dBTtjbhYeQmTHwgM"]
+  Peers = ["/dns4/bootstrap-2.core.keep.test.boar.network/tcp/3001/ipfs/16Uiu2HAmQirGruZBvtbLHr5SDebsYGcq6Djw7ijF3gnkqsdQs3wK",
+"/dns4/bootstrap-3.test.keep.network/tcp/3919/ipfs/16Uiu2HAm8KJX32kr3eYUhDuzwTucSfAfspnjnXNf9veVhB12t6Vf",
+"/dns4/bootstrap-2.test.keep.network/tcp/3919/ipfs/16Uiu2HAmNNuCp45z5bgB8KiTHv1vHTNAVbBgxxtTFGAndageo9Dp"]
 Port = 3919
 
  # Override the node’s default addresses announced in the network
