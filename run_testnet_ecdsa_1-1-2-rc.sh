@@ -5,6 +5,6 @@ sudo docker run -d \
   --env KEEP_ETHEREUM_PASSWORD=$KEEP_CLIENT_ETHEREUM_PASSWORD \
   --env LOG_LEVEL=debug \
   --name ecdsa \
-  -p 3920:3919 \
+  -p 3919:3919 \
   keepnetwork/keep-ecdsa-client:v1.1.2-rc \
   --config /mnt/keep-ecdsa/config/config.toml start
